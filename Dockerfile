@@ -2,8 +2,8 @@ FROM openjdk
 
 WORKDIR /Application
 
-copy ziyad.java .
+copy Ziyad.java .
 
-RUN javac ziyad.java
+RUN javac Ziyad.java
 
-CMD java ziyad
+CMD java Ziyad
